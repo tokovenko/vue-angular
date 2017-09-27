@@ -1,0 +1,33 @@
+<html lang="en" ng-app="test">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AngularJs</title>
+</head>
+<body>
+  <header>
+    <div>Render list by AngularJs</div>
+    <nav>
+      <ul>
+        <li>
+          <a href="/angular.html">Just AngularJs</a>
+        </li>
+        <li>
+          <a href="/vue.html">Just Vue2</a>
+        </li>
+        <li>
+          <a href="/angular-vue.html">AngularJs + Vue2</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <test-app></test-app>
+  </section>
+  <script src="https://code.angularjs.org/1.6.6/angular.min.js"></script>
+  <script src="apps/angular/app.js"></script>
+  <script src="apps/angular/components/test-app.js"></script>
+  <script src="apps/angular/components/test-render-list.js"></script>
+</body>
+</html>
